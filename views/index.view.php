@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Tasks</title>
-</head>
-<body>
+<?php require('partials/head.php'); ?>
+
+    <h1>My tasks</h1>
+
     <?php foreach ($tasks as $task): ?>
         <li>
             <?php if ($task->completed == '1') : ?>
@@ -14,5 +11,5 @@
             <?php endif; ?>
         </li>
     <?php endforeach; ?>
-</body>
-</html>
+
+<?php require('partials/footer.php'); ?>
