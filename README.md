@@ -14,4 +14,10 @@ Some kind of tiny framework based on Laracast lessons to train basic principles 
 - Dependency Injection Container;
 - Simple router system based on HTTP verbs and URI.
 
-_Enjoy =)_
+### Some ideias:
+
+- Create a default view with bootstrap;
+- Filter request parameters;
+- ...
+
+_=)_
